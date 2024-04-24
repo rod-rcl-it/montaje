@@ -1,42 +1,137 @@
 .titulo{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding-top: 0%;
+    text-align: center;
 }
 
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.titulo img {
+    max-width: 150px;
+    height: auto;
+    position:absolute;
+    left: 90%;
+    top: 2%
+}
 
 .container img {
-    width: 100%; 
     height: auto; 
-    max-width: 1100px; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 1219px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
-.titulo{
-text-align: center;
-}
-
-.circles {
+.mei {
     position: fixed;
-    top: 50%;
-    left: 50%; /* Cambiado a left para centrarlo horizontalmente */
+    top: 48.2%;
+    left: 48%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
     align-items: center;
-    margin: -5%;
-    margin-left: 8%;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Nidek {
+    position: fixed;
+    top: 81%;
+    left: 58.2%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Ezfit {
+    position: fixed;
+    top: 93%;
+    left: 47%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Armado {
+    position: fixed;
+    top: 73%;
+    left: 36%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Armado {
+    position: fixed;
+    top: 73%;
+    left: 36%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Control {
+    position: fixed;
+    top: 69%;
+    left: 28%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Trazado {
+    position: fixed;
+    top: 81%;
+    left: 17%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.Ingreso {
+    position: fixed;
+    top: 45%;
+    left: 13.3%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
 }
 
 .circle {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: #fff;
     transition: all 0.3s ease;
     cursor: pointer;
-    border: 2px solid transparent;
 }
 
 .circle:hover {
@@ -49,7 +144,7 @@ text-align: center;
 }
 
 .blue {
-    background-color: blue;
+    background-color: rgb(19, 55, 157);
     align-self: center; 
 }
 
@@ -61,8 +156,12 @@ text-align: center;
     height: 100px;
 }
 
-.Footer img {
-    max-width: 200px;
-    height: auto;
-}
 
+
+@media only screen and (max-width: 768px) {
+    .mei, .Nidek, .Ezfit {
+        position: static;
+        margin-left: 0;
+        justify-content: center;
+    }
+}
