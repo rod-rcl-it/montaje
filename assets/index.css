@@ -308,7 +308,7 @@ h1, h2 {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .titulo{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0%;
@@ -333,7 +333,7 @@ h1, h2 {
     
     .container img {
         height: auto; 
-        max-width: 550px; 
+        max-width: 900px; 
         display: block;
         margin-left: auto; 
         margin-right: auto;
@@ -341,7 +341,7 @@ h1, h2 {
     
     .mei {
         position: fixed;
-        top: 55.5%;
+        top: 50.5%;
         left: 45.2%; 
         transform: translate(-50%, -50%);
         display: flex;
@@ -353,7 +353,7 @@ h1, h2 {
     
     .Nidek {
         position: fixed;
-        top: 88%;
+        top: 82%;
         left: 65.2%; 
         transform: translate(-50%, -50%);
         display: flex;
@@ -365,7 +365,7 @@ h1, h2 {
     
     .Ezfit {
         position: fixed;
-        top: 101%;
+        top: 96%;
         left: 53%; 
         transform: translate(-50%, -50%);
         display: flex;
@@ -377,7 +377,7 @@ h1, h2 {
     
     .Armado {
         position: fixed;
-        top: 80%;
+        top: 74%;
         left: 38%; 
         transform: translate(-50%, -50%);
         display: flex;
@@ -389,7 +389,7 @@ h1, h2 {
     
     .Control {
         position: fixed;
-        top: 75%;
+        top: 69%;
         left: 26%; 
         transform: translate(-50%, -50%);
         display: flex;
@@ -401,8 +401,8 @@ h1, h2 {
     
     .Trazado {
         position: fixed;
-        top: 88%;
-        left: 13%; 
+        top: 83%;
+        left: 11%; 
         transform: translate(-50%, -50%);
         display: flex;
         flex-direction:row-reverse;
@@ -413,8 +413,8 @@ h1, h2 {
     
     .Ingreso {
         position: fixed;
-        top: 51%;
-        left: 8%; 
+        top: 43%;
+        left: 6%; 
         transform: translate(-50%, -50%);
         display: flex;
         flex-direction:row-reverse;
