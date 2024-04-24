@@ -12,7 +12,7 @@ h1, h2 {
 
 
 .titulo img {
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
     position:absolute;
     left: 90%;
@@ -21,7 +21,7 @@ h1, h2 {
 
 .container img {
     height: auto; 
-    max-width: 1219px; 
+    max-width: 850px; 
     display: block;
     margin-left: auto; 
     margin-right: auto;
@@ -29,8 +29,8 @@ h1, h2 {
 
 .mei {
     position: fixed;
-    top: 48.2%;
-    left: 48%; 
+    top: 54%;
+    left: 49%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
@@ -41,7 +41,7 @@ h1, h2 {
 
 .Nidek {
     position: fixed;
-    top: 81%;
+    top: 88%;
     left: 58.2%; 
     transform: translate(-50%, -50%);
     display: flex;
@@ -53,8 +53,8 @@ h1, h2 {
 
 .Ezfit {
     position: fixed;
-    top: 93%;
-    left: 47%; 
+    top: 101%;
+    left: 48%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
@@ -65,20 +65,8 @@ h1, h2 {
 
 .Armado {
     position: fixed;
-    top: 73%;
-    left: 36%; 
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction:row-reverse;
-    align-items: center;
-    margin: -8.3%;
-    margin-left: 16%;
-}
-
-.Armado {
-    position: fixed;
-    top: 73%;
-    left: 36%; 
+    top: 80%;
+    left: 37%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
@@ -89,7 +77,7 @@ h1, h2 {
 
 .Control {
     position: fixed;
-    top: 69%;
+    top: 76%;
     left: 28%; 
     transform: translate(-50%, -50%);
     display: flex;
@@ -101,7 +89,7 @@ h1, h2 {
 
 .Trazado {
     position: fixed;
-    top: 81%;
+    top: 89%;
     left: 17%; 
     transform: translate(-50%, -50%);
     display: flex;
@@ -113,7 +101,7 @@ h1, h2 {
 
 .Ingreso {
     position: fixed;
-    top: 45%;
+    top: 52%;
     left: 13.3%; 
     transform: translate(-50%, -50%);
     display: flex;
@@ -156,304 +144,3 @@ h1, h2 {
     height: 100px;
 }
 
-
-
-@media only screen and (max-width: 1366px) {
-    .titulo{
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0%;
-        padding-top: 0%;
-        text-align: center;
-    }
-    
-    h1, h2 {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    
-    
-    .titulo img {
-        max-width: 150px;
-        height: auto;
-        position:absolute;
-        left: 80%;
-        top: 2%
-    }
-    
-    .container img {
-        height: auto; 
-        max-width: 840px; 
-        display: block;
-        margin-left: auto; 
-        margin-right: auto;
-    }
-    
-    .mei {
-        position: fixed;
-        top: 53.8%;
-        left: 48.2%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Nidek {
-        position: fixed;
-        top: 88%;
-        left: 58.2%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Ezfit {
-        position: fixed;
-        top: 100%;
-        left: 47%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Armado {
-        position: fixed;
-        top: 80%;
-        left: 37%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Control {
-        position: fixed;
-        top: 75%;
-        left: 28%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Trazado {
-        position: fixed;
-        top: 88%;
-        left: 17%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Ingreso {
-        position: fixed;
-        top: 51%;
-        left: 13.3%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .circle {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        margin: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        background-color: #fff;
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
-    
-    .circle:hover {
-        transform: scale(1.5,1.5); 
-    }
-    
-    .black {
-        background-color: rgb(0, 0, 0);
-        align-self: center; 
-    }
-    
-    .blue {
-        background-color: rgb(19, 55, 157);
-        align-self: center; 
-    }
-    
-    
-    .Footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-    }
-
-}
-
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    .titulo{
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0%;
-        padding-top: 0%;
-        text-align: center;
-    }
-    
-    h1, h2 {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 16px;
-    }
-    
-    
-    .titulo img {
-        max-width: 100px;
-        height: auto;
-        position:absolute;
-        left: 80%;
-        top: 2%
-    }
-    
-    .container img {
-        height: auto; 
-        max-width: 900px; 
-        display: block;
-        margin-left: auto; 
-        margin-right: auto;
-    }
-    
-    .mei {
-        position: fixed;
-        top: 50.5%;
-        left: 45.2%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Nidek {
-        position: fixed;
-        top: 82%;
-        left: 65.2%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Ezfit {
-        position: fixed;
-        top: 96%;
-        left: 53%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Armado {
-        position: fixed;
-        top: 74%;
-        left: 38%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Control {
-        position: fixed;
-        top: 69%;
-        left: 26%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Trazado {
-        position: fixed;
-        top: 83%;
-        left: 11%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .Ingreso {
-        position: fixed;
-        top: 43%;
-        left: 6%; 
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        margin: -8.3%;
-        margin-left: 16%;
-    }
-    
-    .circle {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        margin: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        background-color: #fff;
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
-    
-    .circle:hover {
-        transform: scale(1.5,1.5); 
-    }
-    
-    .black {
-        background-color: rgb(0, 0, 0);
-        align-self: center; 
-    }
-    
-    .blue {
-        background-color: rgb(19, 55, 157);
-        align-self: center; 
-    }
-    
-    
-    .Footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-    }
-
-}
